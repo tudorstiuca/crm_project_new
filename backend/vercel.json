@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "backend/manage.py", "use": "python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "backend/manage.py" }
+  ]
+}
